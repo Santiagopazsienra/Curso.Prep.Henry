@@ -1,0 +1,41 @@
+1. VARIABLE: es un elemento dentro del lenguaje de la computacion del  cual yo puedo almacenar un tipo de valor,dato y conjunto de datosdentro de ese elemento.De manera que yo pueda acceder a lo que esta adentro a traves de ese nombre especifico. A esa variable yo le opuedo dar un determinado valor, ya que exsisten diferentes variables depende de la funcion que se quiera cumplir con su respectivo dato.
+
+2.STRING: Es un tipo de dato dentro de las variables.Para que se cumpla el tipo de dato "string" se debe escribir entre comillas, es decir, si queremos que un dato sea de funcion string se debe escribir de la sigiueinte forma:
+var "mar" = 10
+>undefined 
+<"mar"
+>10
+
+3.Funcion: es un conjunto de codigos que ejecuta alguna accion y que se puede invocar para no tener que escribirla varias veces.
+4.Argumento : seria el valor para identificar a la funcion la cual le vamos a asignar a nuestra variable dentro de la funcion.
+5. Return: son funciones que si retornan en algo luego de que se ejecuta una accion,en realidad toda funcion retorna en algo, pero en esta ocasion es mas especifica. Para invocar este tipo de funcion se utiliza el elmento return, el cual nos esta diciendo que si ejecutamos esta funcion acompañada de un argumento en especifico, en eso va a retornar, ejemplo: 
+siempre para activar una fucnion se escribe primero: 
+function + una palabra asignada para identificar la funcion + el argumento que siempre va entre parentesis y abajo se escribe la fucnion return para grabar el dato.
+ejemplo:
+function FRANCIA(){
+ return 18;
+}
+FRANCIA()
+18
+Aca nos esta diciendo que FRANCIA siendo el argumento esta valiendo 18, y cuando escribimos la funcion FRANCIA nos retorna a su respectivo valor.
+6. DECLARACIONES IF: son funciones que tienen condiciones para que un codigo se ejecute, dentro de las fucniones if , existe el " ELSE ", significa que al poner una condicion a nuestra variable, si no pasa lo que esta determinado en esta parte del codigo , se va a ejecutar un segundo, o un tercero tambien, dependiendo la cantidad de if else que agregemos a nuestra funcion. Son condiciones que determinan el resultado final de la funcion si pasa una u otra variable. ejemplo.
+function puede beber alchol(edad) {
+    if (edad > 18) {
+        return true;
+    }else
+
+    return false;
+}
+
+puede beber alchol(16); // false. 
+En este caso es falso porque la condicion es que debe ser mayor a los 18 años de edad para beber alchol. Pero si el argumento de mi variable es 16 entonces la declaracion se ejecutar como falsa ya que es menor a los 18 como especifique en el primer codigo de la funcion : if (edad > 18) {
+        return true;
+7. VALORES BOOLEANOS: los datos tipo booleano pueden significar dos cosas, que algo puede ser verdadero , en el lenguaje de computacion seria "true" o todo lo contrario "false", son declaraciones que le hacemos a la computadora y da como resultado la respuesta logica a lo que hayamos establecido en el codigo.
+ejemplo :
+2 < 3 
+true
+2 > 3
+false
+como ven son declaraciones que nosotros realizamos y que retornan en estos valores booleanos como verdadero o falso dependiendo de lo que se haya establecido. EL determinante de este tipo de datos son los simbolos ( >/< y ==). porque tambien podemos hacer la siguiente declaracion:
+2 == 2
+true.
