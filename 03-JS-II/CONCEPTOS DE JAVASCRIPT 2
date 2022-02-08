@@ -1,0 +1,9 @@
+1-FOR: Es una funcion  que sirve como evaluadro ,es un bucle que recorre todos los elementos y continua mientras sean verdaderos y se detienen cuando detecta una condicion falsa.
+ES una herramienta que te permite crear un bucle donde a una variable se le reasigna por cada vuelta un valor incrementado a gusto y el bucle da la cantidad de vueltas que quieras correspondiente a una desicion aribitraria.
+2-&& : este valor significa "AND" que en español significa y, esto determina que envuelve a los dos elementos que se van a combinar o mas, quedan afectado los dos elementos porque funcionan como un mismo conjunto, ejemplo, si 'p' es falso y 'q' es true el conjunto 'p&&q' es falso yta que si uno es falso afecta a todo el conjunto y se resuelve como falso. De diferente forma pasa si fueran los dos true 'p' es true y 'q' es true ya que los dos al ser true , actuan en conjunto y al ser iguales, se resuelven entonces como verdadero.
+3-||: este simbolo significa "OR" , que en español significa "o". Este simbolo nos da a entender que se puede realizar una eleccion, podes o elegir 'p' o podes elegir 'q' , y supangamos que 'p' sea true pero 'q' sea false , el conjunto 'p||q' seria verdadero, ya que no afecta a los dos y aca puede haber una elecfcion, y por naturaleza siempre se busca el true.
+4-! : Este simbolo significa "NOT" es decir "NO" , este simbolo se utiliza para negar un valor que le es continuo a este simbolo y niega el valor que esta a su derecha, si es impar niega al valo de la derecha, si es par se niega a si mismo y seria como ejecutar un codigo normal, ejemplo:
+! (2 > 3)
+true : porque si bien lo de adentro de las parentesis es falso ,ya que dos es menor que tres, al estar el simbolo de negacion a su lado izquierdo anula su valor y se lo toma de forma contraria.
+!!(2 > 3)
+false: ya que el mismo simbolo de negacion esta negando el simbolo "!" que esta a su derecha, por lo tanto se resuelve la operacion naturalmente sin alteraciones.
