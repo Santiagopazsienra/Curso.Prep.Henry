@@ -1,0 +1,12 @@
+Array : es una herramienta que principalmente nos ayuda a enlistar y enumerar los datos que lleva adentro. Los array pueden llevar cualquier tipo de dato, ya sea booleano, numeros y string. Pueden a su vez tener una funcion.
+Para ejecutar se utilizan los braquets "[]", seria :
+var array = [1,2,3,4,5]
+si nosotros queremos elegir un dato en especifico debemos a su vez realizar un subcodigo de braqutes , es decir , supongamos que dentro de la lista del array queramos escoger el dato 2.
+lo que se realiza es : array[] [1]
+nos quedaria el numero 2 ya que el 0 se cuenta en la programacion entonces el cero en el array es el 1 y el dos ees el 1 y asi sucesivamente.
+Luego tenemos dos conceptos que son fundamentales, el pop y el push.
+El push recibe un argumento y lo que hace es poner ese argumento en la ultima posicion del array y lo deja a todos segun las ordenes que les vayamos dando.
+En cambio el POP saca el ultimo elemento de la lista del array. Recuerden que todo lo que conviertan en array siendo especificos, con el sub grupo osea "[] []" es el dato.Si yo utilizo pop este hace dos cosas , lo primero me devuelve su respectivo valor.Puede utilizar para resolver una operacion :
+array.pop + 10 
+14 : suponiendo que elultimo valor de la lista del array es cuatro.
+Y lo segundo que puede realizar es que te saca de la lista todos los datos que lleva tiempo.
