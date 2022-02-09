@@ -1,0 +1,14 @@
+CONCEPTOS = 
+1.Objeto: Es una coleccion de propiedades, los objetos nos dan la posibilidad de realizar un grupo o estructura de datos donde yo tenga propiedades que sean datos como string, numeros y booleanos.
+2.PROPIEDADES : se encuentran dentro de los objetos y son los elementos que dentro de encuentran sus valores, ya sean string, numeros, funciones, booleanos, etc. La propiedad es una asociasion entre un nombre y un valor.
+3: METODO: se le llama asi cuando una propiedad tienen dentro una funcion.
+4: La notacion dot notation es acceder a la propiedad literalmente como esta valorada. Ejemplo:
+array.nombre
+"boris"
+array.edad
+33
+La segunda forma de acceder a las propiedades es con brackets notation, es muy similar a la de los array. Se escriben los corchetes y adentro el nombre de la propiedad.
+Es decir primero se escribe el objetivo y luego la propiedad que uno desee buscar.
+toni ["edad"].
+La ventaja de es que se puede especificar aun mas la propiedad haciendo subgrupos con los corchetes. La desventaja es que no es tan rapida como la dot notation si es que uno quiere establecer el valor de la misma propiedad.
+La ventaja de la dot notation es que es eficiente ya que con tan solo mencionar el objetivo.propiedad(como ejemplo), se establece y se ejecuta el valor literal de esa propiedad.
